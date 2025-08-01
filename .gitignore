@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+=======
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+>>>>>>> origin/main
 
 ### STS ###
 .apt_generated
@@ -19,6 +24,7 @@ build/
 *.iws
 *.iml
 *.ipr
+<<<<<<< HEAD
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -32,3 +38,13 @@ out/
 
 ### VS Code ###
 .vscode/
+=======
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+>>>>>>> origin/main
